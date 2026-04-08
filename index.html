@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Winning with AI+ Singapore</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0f1c;
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1677442136019-21780ecad995');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 14px 28px;
+    margin: 10px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00d4ff, #7b61ff);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+form {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Winning with AI+ (赢在AI+)</h1>
+    <p>China-Singapore AI Innovation & Venture Collaboration</p>
+    <p>[INSERT DATE] • [INSERT LOCATION]</p>
+
+    <a href="#participant" class="btn">Apply as Participant</a>
+    <a href="#audience" class="btn">Join as Audience</a>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+    <h2>About the Programme</h2>
+    <p>
+        A flagship AI innovation programme produced by China Media Group (CCTV),
+        with over 240 million views. Season 2 expands internationally, with
+        Singapore as a key global stage.
+    </p>
+
+    <iframe width="100%" height="400"
+    src="https://m.yangshipin.cn/video?type=0&vid=f000004m5rn&cid=4fhmtxsom9b2a7m">
+    </iframe>
+</section>
+
+<!-- VALUE -->
+<section class="section">
+    <h2>Why This Matters</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72">
+            <h3>China AI Scale</h3>
+            <p>Rapid deployment, industrial AI, capital strength</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+            <h3>Singapore Hub</h3>
+            <p>Innovation ecosystem and ASEAN gateway</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72">
+            <h3>Cross-Border Growth</h3>
+            <p>Partnerships, expansion, talent exchange</p>
+        </div>
+    </div>
+</section>
+
+<!-- FORMAT -->
+<section class="section">
+    <h2>Programme Format</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Pitch Sessions</h3>
+            <p>AI companies present solutions</p>
+        </div>
+        <div class="card">
+            <h3>Expert Panels</h3>
+            <p>Feedback and discussion</p>
+        </div>
+        <div class="card">
+            <h3>Networking</h3>
+            <p>Connect with AI leaders</p>
+        </div>
+    </div>
+</section>
+
+<!-- SPEAKERS -->
+<section class="section">
+    <h2>Speakers & Judges</h2>
+    <p>[TO BE ANNOUNCED]</p>
+</section>
+
+<!-- PARTICIPANT FORM -->
+<section class="section" id="participant">
+    <h2>Apply as Participant</h2>
+
+    <form>
+        <input placeholder="Company Name">
+        <input placeholder="Website">
+        <input placeholder="Country">
+        <textarea placeholder="Company Description"></textarea>
+
+        <select>
+            <option>Funding Stage</option>
+            <option>Seed</option>
+            <option>Series A</option>
+        </select>
+
+        <textarea placeholder="Your AI Solution"></textarea>
+
+        <input placeholder="Founder Name">
+        <input placeholder="Email">
+
+        <input type="file">
+
+        <button class="btn">Submit</button>
+    </form>
+</section>
+
+<!-- AUDIENCE -->
+<section class="section" id="audience">
+    <h2>Register as Audience</h2>
+
+    <form>
+        <input placeholder="Name">
+        <input placeholder="Company">
+        <input placeholder="Role">
+        <input placeholder="Email">
+
+        <textarea placeholder="Why do you want to attend?"></textarea>
+
+        <button class="btn">Submit</button>
+    </form>
+</section>
+
+<!-- CTA -->
+<section class="section">
+    <h2>Join the AI Future</h2>
+    <a href="#participant" class="btn">Apply Now</a>
+</section>
+
+<footer>
+    <p>Contact: [INSERT EMAIL]</p>
+</footer>
+
+</body>
+</html>
